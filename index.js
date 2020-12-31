@@ -1,5 +1,5 @@
-var { network, encryption } = require("decent"),
-    args = require("../common/cli"),
+var { network, encryption } = require("decene"),
+    args = require("./cli"),
     id;
 
 // Create new identity?
