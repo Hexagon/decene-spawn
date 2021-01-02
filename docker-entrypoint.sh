@@ -1,5 +1,3 @@
-#!/bin/bash
-
 cd /usr/src/app
-node index.js --init
-node index.js
+node /usr/src/app/index.js --init
+node /usr/src/app/index.js
