@@ -31,7 +31,10 @@ var d = new network(id,args.address,args.port,args.spawn,cache);
 d.events.on('state:changed',(prevState,curState) => {
     console.log("State changed: "+prevState+" -> "+curState);
 });
-d.events.on('server:error', (err) => console.log("ERR:"+err));
+d.events.on('server:error', (err) => console.log("SEERR:"+err));
+d.events.on('socket:error', (err) => console.log("SOERR:"+err));
+d.events.on('error', (err) => console.log("ERR:"+err));
+
 d.events.on('server:listening', (port) => console.log("Listening at " + port));
 d.events.on('ip:changed',(ip) => {
     console.log("Public ip verified: "+ip);
