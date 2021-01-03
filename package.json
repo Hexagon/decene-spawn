@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "decene": "0.0.5",
+    "decene": "0.0.7",
     "minimist": "^1.2.3"
   }
 }
