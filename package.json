@@ -1,6 +1,6 @@
 {
   "name": "decene-spawn",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Standalone spawn point for decene decentralised p2p network.",
   "author": "Hexagon <Hexagon@GitHub>",
   "license": "MIT",
