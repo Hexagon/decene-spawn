@@ -27,6 +27,6 @@ Run with docker
 ```docker build . --tag="hexagon/decene"```
 
 4. Run docker container
-```docker run -d --restart=always -p 47474:47474 hexagon/decene```
+```docker run -d --restart=always -p 47474:47474 --name decene hexagon/decene```
 
 5. Make sure port 47474 is open to internet, if you want to run a public spawn
