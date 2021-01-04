@@ -16,7 +16,20 @@ Start node 1 with new identity
 
 ```node index.js --init --port 47474```
 
-Run with docker
+# Run using docker 
+
+## Autmatically
+
+Make sure docker is installed. Review content of ```scripts/start-or-update-container.sh```
+
+Then run
+
+```bash
+chmod +x ./scripts/start-or-update-container.sh
+./scripts/start-or-update-container.sh
+```
+
+## Manually
 
 1. Clone this repo, enter directory
 
