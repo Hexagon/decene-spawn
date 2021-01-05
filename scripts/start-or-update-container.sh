@@ -1,4 +1,5 @@
 #/bin/bash
+git pull
 docker stop decene
 docker rm decene
 npm install
